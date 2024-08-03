@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff0f5; /* light pink background */
+    color: #333; /* dark grey text for readability */
+}
+
+header {
+    background-color: #ff69b4; /* pink header */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: #fffaf0; /* beige main background */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #ff69b4; /* pink border for images */
+}
+
+footer {
+    background-color: #ff69b4; /* pink footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff; /* white form background */
+    padding: 20px;
+    border: 1px solid #ff69b4; /* pink border */
+    border-radius: 10px;
+}
+
+label, input, button {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff69b4; /* pink button */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff1493; /* darker pink on hover */
+}
